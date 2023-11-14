@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #252b38;
+    
+
+}
+/* 
+.main-container{
+} */
+
+.navbar li{
+    color: #ffffff;
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.leftnav{
+    margin-left: 65%;
+}
+ 
+.writing-dev{
+    padding-left: 180px;
+}
+ 
+.image img{
+    /* margin-top: 500px; */
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    max-height: 18%;
+    width: 8%;
+    
+} 
+
+.mid-heading {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 34%;
+}
+.first-heading{
+
+    color: #FF7575;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    font-weight: 10;
+    font-style: italic;
+    line-height: 100px;
+}
+.text{
+    margin-left: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.sepration{
+    height: 20px;
+}
+
+.mid-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 450px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.mid-navigation li{
+    float: left;
+    list-style: none;
+    margin-left: 60px;
+    
+}
+
+.grid-container{
+    margin-top: 130px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 40px;
+    
+}
+
+.card{
+    background: #ffffff;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.card img{
+  padding: 20px;
+    height: 200px;
+    width: 300px; 
+    border-radius: 30px;
+}
+
+.card h4{
+    margin-left: 20px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.title{
+    font-weight: bold;
+    font-weight: 50px;
+}
+
+.bottom-navigation{
+    margin-top: 100px;
+    margin-left: 40%;
+    color: #ffffff;
+    word-spacing: 25px;
+
+}
+
+.bottom-container{
+    margin-top: 200px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+#sp1{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+#sp1 button{
+    color: #ffffff;
+    background-color: #4d9ece;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+}
+
+#sp2 button{
+    margin-left: 50%;
+    color: #ffffff;
+    background-color: #4d9ece;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+
+}
